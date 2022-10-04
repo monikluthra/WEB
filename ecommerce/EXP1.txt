@@ -1,0 +1,78 @@
+    <html>
+    <head>
+        <title>My First EXPERIMENT</title>
+    </head>
+    <body bgcolor="#19D3AR">
+        <center>
+		<img src="images.jpg" width="500px">
+	  </center>
+		<br />
+        <div class="parent">
+            <div class="child">
+	<img src="image.jpg" height="500px" width="1500px" usemap="#image-map">
+
+	<map name="image-map">
+    	<area target="_blank" alt="amazon" title="amazon" href="https://www.amazon.in/" coords="891,861,468,12" shape="rect">
+   	<area target="_blank" alt="flipkart" title="flipkart" href="https://www.flipkart.com/" coords="897,562,989,10" shape="rect">
+    	<area target="_blank" alt="ajio" title="ajio" href="https://www.ajio.com/" coords="1570,580,1191,6" shape="rect">
+    	<area target="_blank" alt="myntra" title="myntra" href="https://www.myntra.com/" coords="407,474,5,10" shape="rect">
+	</map>
+	</div>
+		<div class="child">
+                <ul>
+                    <li><a href="amazon.html">Amazon</a></li>
+                    <li><a href="flipkart.html">Flipkart</a></li>
+                    <li><a href="myntra.html">Myntra</a></li>
+                    <li><a href="ajio.html">Ajio</a></li>
+                </ul>
+            </div>
+            <div class="child">
+                <ol type="A" start="16">
+                    <li>Apple</li>
+                    <li>Boat</li>
+                    <li>Channel</li>
+                    <li>D&G</li>
+                </ol>
+            </div>
+        </div>
+            <div class = "child">
+                <h1> This is heading 1 </h1>
+                <h2> This is heading 2 </h2>
+                <h3> This is heading 3</h3>
+                <h4> This is heading 4 </h4>
+                <h5> This is heading 5 </h5>
+                <h6> This is heading 6 </h6>
+                <br />
+                <small> this is small </small>
+                <b> this is Bold </b><br />
+                <u> this should be underlined </u><br />
+                <i> this is italic</i><br />
+                SUB<sub>this is in subscript</sub><br />
+                SUP<sup>this is in superscript</sup><br />
+                
+            </div>
+            
+
+        <table bgcolor="green" style="outline: auto;">
+            <tr>
+                <td></td>
+                <td>9:00 - 9:50</td>
+                <td>9:50 - 10:40</td>
+                <td>10:40 - 11:30</td>
+                <td>11:30 - 12:20</td>
+                <td>12:20 - 1:10</td>
+                <td>1:10 - 2:00</td>
+            </tr>
+            <tr>
+                <td>Mon</td>
+                <td>OS</td>
+                <td>AI</td>
+                <td>MPMC</td>
+                <td>WE</td>
+		    <td>CN</td>
+                <td>CD</td>
+		    <td></td>
+            </tr>
+        </table>
+    </body>
+</html>

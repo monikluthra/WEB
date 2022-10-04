@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>
+Myntra
+</title>
+</head>
+<body>
+<img src="myntra.jpg" usemap="#image-map">
+
+     <map name="image-map">
+     <area target="" alt="error" title="" href="myntra.html" coords="1,1,343,138" shape="rect">
+        </map>
+</body>
+</html>

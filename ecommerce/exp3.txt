@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>
+My First EXPERIMENT
+</title>
+<link rel="stylesheet" href="index.css" />
+</head>
+<center>
+<body bgcolor="blue">
+<div class="header-w3l">
+<h1 align="center">Classic Login Form</h1>
+</div>
+<div class="main-content-agile">
+<div class="sub-main-w3">	
+<div class="wthree-pro">
+<h2>Login Here</h2>
+</div>
+<form action="#" method="post">
+<input placeholder="Username or E-mail" name="Name" class="user" type="email" required="">
+<input  placeholder="Password" name="Password" class="pass" type="password" required="">
+<div class="sub-w3l">
+<h6><a href="#">Forgot Password?</a></h6>
+<div class="right-w3l">
+<input type="submit" value="Login">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="footer">
+</center>
+<div align="center">by:
+<p align="center">Monik Luthra</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

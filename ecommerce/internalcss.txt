@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>LOGIN</title>
+<style type = "text/css" media = "all">
+html,body,div,h1,h2,h3,h4,h5,h6,p,footer, header
+{
+	display: block;
+}
+body 
+{
+  background-image: linear-gradient(to right, blue , red);
+}
+
+{
+    text-align: center;
+	font-family: 'Oleo Script', cursive;
+}
+.center-container 
+{
+    padding: 0em;
+    background: rgba(0, 0, 0, 0.42)
+}
+.header-w3l 
+{
+    padding-top: 2em;
+}
+.header-w3l h1
+{
+	font-size:3em;
+    color:salmon;
+    letter-spacing: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.main-content-agile 
+{
+    margin: 7em 0em 3em;
+}
+.wthree-pro h2 
+{
+    font-size: 1.5em;
+    color: salmon;
+    letter-spacing: 1px;
+    margin-top: 0.3em;
+    margin-bottom: 2em;
+    font-weight: 400;
+}
+.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] 
+{
+    outline: none;
+    font-size: 1em;
+    padding: 1em 3em 1em 1em;
+    border: none;
+    margin-bottom: 0.3em;
+    background: none;
+    border: 1px solid #eee;
+    width: 82%;
+    color: salmon;
+    font-weight: 400;
+    font-family: 'Oleo Script', cursive;
+    letter-spacing: 1px;
+}
+.sub-main-w3 
+{
+    position: relative;
+    width: 23%;
+    margin: 0 auto;
+}
+.sub-w3l h6 a 
+{
+    font-size: 1em;
+    color: salmon;
+    letter-spacing: 2px;
+    text-align: right;
+    display: inherit;
+}
+.sub-w3l 
+{
+    margin-top: 2em;
+}
+.sub-main-w3 input[type="submit"] 
+{
+    color: violet;
+    background: #2baf2b;
+    border: none;
+    padding: 8px 0px;
+    outline: none;
+    width: 38%;
+    font-size: 1.1em;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Oleo Script', cursive;
+    transition: 0.5s all;
+}
+.sub-main-w3 input[type="submit"]:hover 
+{
+    background: #fff;
+    color: black;
+	transition:0.5s all;
+}
+.footer 
+{
+    padding: 0.5cm 0 3em;
+}
+.footer p 
+{
+    font-size: 1em;
+    color: red;
+    letter-spacing: 2px;
+}
+</style>
+</head>
+<body>
+<div class="header-w3l">
+<h1 align="center">Classic Login Form</h1>
+</div>
+<div class="main-content-agile">
+<div class="sub-main-w3">	
+<div class="wthree-pro">
+<h2>Login Here</h2>
+</div>
+<form action="#" method="post">
+<input placeholder="Username or E-mail" name="Name" class="user" type="email" required="">
+<input  placeholder="Password" name="Password" class="pass" type="password" required="">
+<div class="sub-w3l">
+<h6><a href="#">Forgot Password?</a></h6>
+<div class="right-w3l">
+<input type="submit" value="Login">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="footer">
+<div align="center">by:
+<p align="center">Kshitiz Garg</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

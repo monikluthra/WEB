@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        function allLetter() {
+            var name = document.querySelector("#name").value;
+
+            var letters = /^[A-Za-z]*$/;
+            if (letters.test(name)) {
+                return true;
+            } else {
+                alert("Not a valid Name");
+                return false;
+            }
+        }
+
+        function rollnumber() {
+            var roll = document.querySelector("#roll").value;
+
+            var phoneno = /^\d{7}$/;
+            if (phoneno.test(roll)) {
+                return true;
+            } else {
+                alert("Not a valid Roll Number");
+                return false;
+            }
+        }
+
+        function date() {
+            var date = document.querySelector("#date").value;
+
+            if (!date) {
+                return true;
+            }
+            else {
+                alert("Empty Date");
+                return false;
+            }
+        }
+
+        function check() {
+
+            var t1 = allLetter();
+            var t2 = rollnumber();
+            var t3 = date();
+
+            console.log(t1);
+            console.log(t2);
+            console.log(t3);
+
+            if (t1 && t2 && t3) {
+                alert("Registration Successful");
+                return true;
+            } else {
+                alert("One or More Fields are incorrectly set");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>STUDENT REGISTRATION FORM</h2>
+
+    <form name="form1" method="post" onsubmit="check();">
+        <label for="name">Name :</label>
+        <input type="text" id="name"><br>
+
+        <label for="roll">Roll No :</label>
+        <input type="text" id="roll"><br>
+
+        <label for="date">DOB :</label>
+        <input type="date" id="date"><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+
+</html>

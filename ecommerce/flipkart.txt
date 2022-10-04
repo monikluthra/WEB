@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>
+Flipkart
+</title>
+</head>
+<body bgcolor="lightblue">
+<img src="flipkart.jpg">
+Flipkart
+</body>
+</html>
